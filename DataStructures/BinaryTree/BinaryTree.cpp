@@ -10,7 +10,7 @@ BinaryTree::BinaryTree(int data)
 	_root = new BinaryTreeNode(data);
 }
 
-BinaryTreeNode* BinaryTree::add(int data)
+void BinaryTree::add(int data)
 {
 	BinaryTreeNode* current = _root;
 
@@ -20,7 +20,8 @@ BinaryTreeNode* BinaryTree::add(int data)
 		{
 			if (current->right == nullptr)
 			{
-				return current->right = new BinaryTreeNode(data);
+				current->right = new BinaryTreeNode(data);
+				return;
 			}
 
 			current = current->right;
@@ -29,14 +30,15 @@ BinaryTreeNode* BinaryTree::add(int data)
 		{
 			if (current->left == nullptr)
 			{
-				return current->left = new BinaryTreeNode(data);
+				current->left = new BinaryTreeNode(data);
+				return;
 			}
 
 			current = current->left;
 		}
 		else
 		{
-			return nullptr;
+			return;
 		}
 	}
 }

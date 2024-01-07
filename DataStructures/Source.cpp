@@ -1,21 +1,31 @@
 #include "iostream"
 #include "BinaryTree.h"
+#include "BinaryHeap.h"
 
 int main()
 {
-	BinaryTree* tree = new BinaryTree(100);
+	BinaryHeap* heap = new BinaryHeap();
 
-	tree->add(90);
-	tree->add(110);
-	tree->add(111);
-	tree->add(112);
-	tree->add(10);
-	tree->add(120);
-	tree->add(75);
+	heap->add(91784);
+	heap->add(9);
+	heap->add(3);
+	heap->add(1);
+	heap->add(6);
+	heap->add(11);
+	heap->add(999);
+	heap->add(11231);
+	heap->add(116);
 
-	auto node1 = tree->find(1);
-	auto node2 = tree->find(111);
-	auto node3 = tree->find(75);
+	heap->print();
 
-	return 0;
+	std::cout << "\nPOP: " << std::endl;
+	std::cout << heap->pop() << std::endl;
+	std::cout << heap->pop() << std::endl;
+	std::cout << heap->pop() << std::endl;
+	std::cout << heap->pop() << std::endl;
+	std::cout << heap->pop() << std::endl;
+	std::cout << heap->pop() << std::endl;
+	std::cout << heap->pop() << std::endl;
+	std::cout << heap->pop() << std::endl;
+	std::cout << heap->pop() << std::endl;
 }
