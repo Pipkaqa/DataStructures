@@ -1,5 +1,4 @@
 #pragma once
-#pragma once
 
 #include "BinaryTreeNode.h"
 
@@ -9,7 +8,7 @@ public:
 	BinaryTree();
 	BinaryTree(int data);
 
-	BinaryTreeNode* add(int data);
+	void add(int data);
 	BinaryTreeNode* find(int data);
 
 private:

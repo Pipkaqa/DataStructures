@@ -16,6 +16,9 @@
     <Filter Include="Source Files\BinaryTree">
       <UniqueIdentifier>{4b62f0ed-21e4-44e1-9c3c-01b485b86caf}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\BinaryHeap">
+      <UniqueIdentifier>{64d0c9b6-1e8b-41fa-ab3c-f90c1f614efb}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source.cpp">
@@ -27,6 +30,9 @@
     <ClCompile Include="BinaryTreeNode.cpp">
       <Filter>Source Files\BinaryTree</Filter>
     </ClCompile>
+    <ClCompile Include="BinaryHeap.cpp">
+      <Filter>Source Files\BinaryHeap</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BinaryTree.h">
@@ -34,6 +40,9 @@
     </ClInclude>
     <ClInclude Include="BinaryTreeNode.h">
       <Filter>Source Files\BinaryTree</Filter>
+    </ClInclude>
+    <ClInclude Include="BinaryHeap.h">
+      <Filter>Source Files\BinaryHeap</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
