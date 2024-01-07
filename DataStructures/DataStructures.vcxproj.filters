@@ -13,24 +13,27 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\BinaryTree">
+      <UniqueIdentifier>{4b62f0ed-21e4-44e1-9c3c-01b485b86caf}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="BinaryTree.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\BinaryTree</Filter>
     </ClCompile>
     <ClCompile Include="BinaryTreeNode.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\BinaryTree</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BinaryTree.h">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\BinaryTree</Filter>
     </ClInclude>
     <ClInclude Include="BinaryTreeNode.h">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\BinaryTree</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
