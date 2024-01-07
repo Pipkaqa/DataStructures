@@ -1,6 +1,6 @@
 #include "iostream"
-#include "BinaryTree.h"
-#include "BinaryHeap.h"
+#include "BinaryTree/BinaryTree.h"
+#include "BinaryHeap/BinaryHeap.h"
 
 int main()
 {
