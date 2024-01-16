@@ -1,1 +1,1 @@
-Self-created data structures
+Data structures studying.
