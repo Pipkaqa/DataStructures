@@ -118,6 +118,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -127,15 +128,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="BinaryHeap.cpp" />
-    <ClCompile Include="BinaryTree.cpp" />
-    <ClCompile Include="BinaryTreeNode.cpp" />
+    <ClCompile Include="BinaryHeap\BinaryHeap.cpp" />
+    <ClCompile Include="BinaryTree\BinaryTree.cpp" />
+    <ClCompile Include="BinaryTree\BinaryTreeNode.cpp" />
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="BinaryHeap.h" />
-    <ClInclude Include="BinaryTree.h" />
-    <ClInclude Include="BinaryTreeNode.h" />
+    <ClInclude Include="BinaryHeap\BinaryHeap.h" />
+    <ClInclude Include="BinaryTree\BinaryTree.h" />
+    <ClInclude Include="BinaryTree\BinaryTreeNode.h" />
+    <ClInclude Include="List\List.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

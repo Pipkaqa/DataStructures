@@ -24,25 +24,28 @@
     <ClCompile Include="Source.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="BinaryTree.cpp">
-      <Filter>Source Files\BinaryTree</Filter>
+    <ClCompile Include="BinaryHeap\BinaryHeap.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="BinaryTreeNode.cpp">
-      <Filter>Source Files\BinaryTree</Filter>
+    <ClCompile Include="BinaryTree\BinaryTree.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="BinaryHeap.cpp">
-      <Filter>Source Files\BinaryHeap</Filter>
+    <ClCompile Include="BinaryTree\BinaryTreeNode.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="BinaryTree.h">
-      <Filter>Source Files\BinaryTree</Filter>
+    <ClInclude Include="BinaryHeap\BinaryHeap.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="BinaryTreeNode.h">
-      <Filter>Source Files\BinaryTree</Filter>
+    <ClInclude Include="BinaryTree\BinaryTree.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="BinaryHeap.h">
-      <Filter>Source Files\BinaryHeap</Filter>
+    <ClInclude Include="BinaryTree\BinaryTreeNode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="List\List.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
